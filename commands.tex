@@ -1,0 +1,20 @@
+%--------------
+% COMMANDS
+%--------------
+\newcommand{\R}[0]{\mathbb{R}}          % Real number symbol
+\newcommand{\Prob}[0]{\operatorname{P}} % Probability
+\newcommand{\E}[0]{\operatorname{E}}    % Expectation Value
+\newcommand{\Var}{\operatorname{Var}}   % Variance
+\newcommand{\Cov}{\operatorname{Cov}}   % Covariance
+\newcommand{\operator}{\hat{\mathcal{O}}}      % Quantum Operator
+
+
+\newtcolorbox{mybox}[2][]{ % Nice box 1
+colframe=black!5!white,sharp corners,coltitle=black,
+detach title,before upper={\tcbtitle\quad},title={#2.},
+fonttitle=\scshape,width=.8\linewidth,before=\begin{center},after=\end{center},#1}
+
+\newtcolorbox{example}[1][]{ % Nice box 2
+colframe=black,colback=white,sharp corners,coltitle=black,
+detach title,before upper={\tcbtitle\quad},title={Example.},
+fonttitle=\scshape,width=.8\linewidth,before=\begin{center},after=\end{center},#1}
